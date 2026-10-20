@@ -48,7 +48,7 @@ def print_card(card: Arcana):
     x_border = ""
     y_border = ""
 
-    # position cal to center the arcana name
+    # position calc to center the arcana name
     card_position = int((X_SIZE - string_size) / 2) - 1
 
     for _ in range(X_SIZE):

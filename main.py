@@ -1,5 +1,5 @@
 from deck import full_deck
-from utils import one_card_game, three_card_game, aphrodite_temple
+from utils import one_card_game, three_card_game, aphrodite_temple, six_card_game
 
 
 def main():
@@ -10,7 +10,8 @@ def main():
     print("\nType the desired read")
     print("1) One card read")
     print("2) Three card read")
-    print("3) Aphrodite Temple")
+    print("3) Six card read")
+    print("4) Aphrodite Temple")
 
     match input("Option: "):
         case "1":
@@ -18,6 +19,8 @@ def main():
         case "2":
             three_card_game(deck)
         case "3":
+            six_card_game(deck)
+        case "4":
             aphrodite_temple(deck)
         case _:
             print("Ohh you silly, i can't read it")

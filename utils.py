@@ -27,6 +27,13 @@ def three_card_game(deck: Deck):
         print_card(shuffled_deck[i])
 
 
+def six_card_game(deck: Deck):
+    shuffled_deck = shuffle_deck(deck)
+
+    for i in range(6):
+        print_card(shuffled_deck[i])
+
+
 def aphrodite_temple(deck: Deck):
     shuffled_deck = shuffle_deck(deck)
 
